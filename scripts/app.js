@@ -9,3 +9,12 @@ window.addEventListener('click', function(e) {
         nav.classList.remove('show-nav')
     }
 })
+
+const input = document.querySelector('input')
+const searchIcon = document.querySelector('.icons')
+
+
+input.addEventListener('input', function() {
+    searchIcon.style.display = 'none'
+   
+})
