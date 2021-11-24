@@ -218,7 +218,7 @@ main .main #text-input .icons .fa-microphone {
 
 .footer footer {
   padding-bottom: 1.3rem;
-  width: 90%;
+  width: 95%;
   margin: 0 auto;
   text-align: center;
 }
@@ -253,22 +253,27 @@ main .main #text-input .icons .fa-microphone {
     width: 100%;
     border-bottom: 1px solid #9c9c9c;
   }
-  footer {
-    width: 80%;
+  .footer footer {
+    width: 100%;
     margin: 0 auto;
     display: block;
     text-align: center;
   }
-  footer p {
+  .footer footer p {
     display: block;
     padding: 0;
   }
-  footer .cut-1, footer .cut-2 {
+  .footer footer .cut-1, .footer footer .cut-2 {
     display: flex;
     justify-content: space-between;
     margin: 1rem 0;
   }
-  footer .cut-2 {
+  .footer footer .cut-1 {
+    text-align: center;
+    width: 80%;
+    margin: 1rem auto;
+  }
+  .footer footer .cut-2 {
     width: 70%;
     margin: 0 auto;
   }

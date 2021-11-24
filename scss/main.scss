@@ -200,7 +200,7 @@ main {
             padding: .5rem 0;
         }
         padding-bottom: 1.3rem;
-        width: 90%;
+        width: 95%;
         margin: 0 auto;
         text-align: center;
         
@@ -243,24 +243,32 @@ main {
         width: 100%;
         border-bottom: 1px solid #9c9c9c;
     }
-    footer {
-        width: 80%;
-        margin: 0 auto;
-        display:  block;
-        text-align:center;
-        & p {
-            display: block;
-            padding: 0;
-        }
-        .cut-1, .cut-2 {
-            display: flex;
-            justify-content: space-between;
-            margin: 1rem 0;
-        }
-        
-        .cut-2 {
-            width: 70%;
+    .footer {
+        footer {
+            width: 100%;
             margin: 0 auto;
+            display:  block;
+            text-align:center;
+            & p {
+                display: block;
+                padding: 0;
+            }
+            
+            .cut-1, .cut-2 {
+                display: flex;
+                justify-content: space-between;
+                margin: 1rem 0;
+            }
+            .cut-1 {
+                text-align: center;
+                width: 80%;
+                margin: 1rem auto;
+            }
+            
+            .cut-2 {
+                width: 70%;
+                margin: 0 auto;
+            }
         }
     }
     nav.show-nav {
