@@ -14,7 +14,8 @@ const input = document.querySelector('input')
 const searchIcon = document.querySelector('.icons')
 
 
-input.addEventListener('input', function() {
+input.addEventListener('click', function() {
     searchIcon.style.display = 'none'
    
 })
+
